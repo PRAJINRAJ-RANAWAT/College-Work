@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.final {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.Main {
+  width: 100%;
+  background-color: #a2b6dc;
+  border: 2px solid black;
+  border-radius: 25px 25px 0 0;
+  padding: 20px;
+}
+
+.Main h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* --- Corrected Header Section --- */
+.Header {
+  display: flex;
+  /* This distributes all items evenly with space around them */
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #a2b6dc;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.Header img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #000;
+  margin-right: -15px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+.Header img:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+  color: #1a1a1a;
+}
+.Header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.Header a:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+  color: #1a1a1a;
+}
+
+.About {
+  border: 2px solid #000;
+  padding: 20px;
+  border-radius: 0 0 25px 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
