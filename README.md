@@ -44,6 +44,12 @@ The goal of this project is to develop a structured and visually appealing portf
 ├── index.html        # Main portfolio HTML file
 ├── index.css         # (If external stylesheet is used)
 ├── images            # Profile photo, icons (e.g., GitHub, LinkedIn)
+├── projects.html
+├── projects.css
+├── aboutme.html
+├── aboutme.css
+├── skills.html
+├── skills.css
 ```
 
 ---
